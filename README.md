@@ -62,4 +62,7 @@ optional arguments:
   --disable-faceid
 
 ## Some swapping results
-![](demos/1.png?raw=true "Title")
+![demos/1.png](demos/1.png?raw=true "demos/1.png")
+![demos/2.png](demos/2.png?raw=true "demos/2.png")
+![demos/3.png](demos/3.png?raw=true "demos/3.png")
+![demos/4.png](demos/4.png?raw=true "demos/4.png")
