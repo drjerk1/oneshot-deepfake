@@ -8,7 +8,6 @@ import argparse
 from faceswapper import FaceSwapper
 from insightface import Backbone
 import torch
-from camerawriter import CameraWriter
 import imageio
 from vasyakeypoints import VasyaPointDetector
 import tensorflow as tf
@@ -17,6 +16,13 @@ config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 sess = tf.compat.v1.Session(config=config)
 tf.compat.v1.keras.backend.set_session(sess)
+
+try:
+    from camerawriter import CameraWriter
+except Exception:
+    print("V4L2 library not found, camerawriter feauture would not be avaliable")
+    CameraWriter = None
+    pass
 
 try:
     import face_alignment
