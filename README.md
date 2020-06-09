@@ -4,9 +4,9 @@
 
 Swap faces in the video or images in realtime using only one photo of both people
 
-## Download weights here and place them into weights directory, in the same directory where main.py is
+## Download weights from here and place them into weights directory, in the same directory where main.py is
 
-https://www.kaggle.com/drjerk/one-shot-deepfake-weights
+https://www.kaggle.com/drjerk/one-shot-deepfake-weights or https://drive.google.com/drive/folders/1Dhudzp0ZvefUWsZv7h6aJk6qCTKnU-nW?usp=sharing
 
 ## https://www.kaggle.com/drjerk/swap-faces-usage-demo - simple usage demo
 
