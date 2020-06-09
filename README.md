@@ -1,23 +1,39 @@
 # oneshot-deepfake
+
 Swap faces in the video or images in realtime using only one photo of both people
+
 ## Download weights here and place them into weights directory, in the same directory where main.py is
+
 https://www.kaggle.com/drjerk/one-shot-deepfake-weights
+
 ## https://www.kaggle.com/drjerk/swap-faces-usage-demo - simple usage demo
+
 ## python process_image.py - for image swapping
+
 usage: process_image.py [-h] --input-image INPUT_IMAGE --output-image OUTPUT_IMAGE --source-image SOURCE_IMAGE [--refl-coef REFL_COEF] [--fallback-point-detector]
 
 One shot face swapper
 
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   --input-image INPUT_IMAGE
+  
                         Input image
+                        
   --output-image OUTPUT_IMAGE
+  
                         Output image
+                        
   --source-image SOURCE_IMAGE
+  
                         Source image
+                        
   --refl-coef REFL_COEF
+  
                         Reflection coeficent
+                        
   --fallback-point-detector
   
   ## python main.py - for video swapping support reading from webcam / video file and writing to webcam (using akvcam) / video file / showing in window
