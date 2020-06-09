@@ -75,3 +75,5 @@ https://github.com/TreB1eN/InsightFace_Pytorch - face comparison model
 https://github.com/1adrianb/face-alignment - facial landmarks model used to pseudolabel dataset
 
 https://github.com/webcamoid/akvcam - virtual camera integration
+
+https://www.kaggle.com/yukia18/sub-rals-biggan-with-auxiliary-classifier - good biggan implementation
