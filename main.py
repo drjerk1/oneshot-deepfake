@@ -67,7 +67,9 @@ camera_height = args.camera_height
 input_video = args.input_video
 refl_coef = args.refl_coef
 if input_video == '':
-    input_video = 2
+    input_video = 0
+elif input_video.isdigit():
+    input_video = int(input_video)
 source_image = read_image(args.source_image)
 target_image = read_image(args.target_image)
 ffmpeg_format = 'mp4v'
