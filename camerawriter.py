@@ -15,8 +15,12 @@ class CameraWriter:
         vid_format.type = v4l2.V4L2_BUF_TYPE_VIDEO_OUTPUT
         vid_format.fmt.pix.width = self.width
         vid_format.fmt.pix.height = self.height
-        #vid_format.fmt.pix.pixelformat = v4l2.V4L2_PIX_FMT_YUYV
-        vid_format.fmt.pix.pixelformat = v4l2.V4L2_PIX_FMT_RGB24
+        if self.input_fmt == "RGB24":
+            vid_format.fmt.pix.pixelformat = v4l2.V4L2_PIX_FMT_RGB24
+        elif self.input_fmt == "YUY2":
+            vid_format.fmt.pix.pixelformat = v4l2.V4L2_PIX_FMT_YUYV
+        else:
+            assert False
         vid_format.fmt.pix.field = v4l2.V4L2_FIELD_NONE
         vid_format.fmt.pix.colorspace = v4l2.V4L2_COLORSPACE_SRGB
         ioctl(d, v4l2.VIDIOC_S_FMT, vid_format)
