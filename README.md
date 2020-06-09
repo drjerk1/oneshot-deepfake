@@ -32,7 +32,9 @@ optional arguments:
   
   ## python main.py - for video processing, supports reading from webcam / video file and writing to webcam (using akvcam) / video file / showing in window
   
-  ## demo example - python main.py --source-image images/1.jpg --target-image images/2.jpg --verbose
+  ## python main.py --source-image images/swapme.jpg --target-image images/you.jpg --verbose
+  
+  ## for video processing demo
   
   usage: main.py [-h] [--input-video INPUT_VIDEO] [--output-video OUTPUT_VIDEO] [--output-camera OUTPUT_CAMERA] [--camera-width CAMERA_WIDTH] [--camera-height CAMERA_HEIGHT] --source-image SOURCE_IMAGE [--target-image TARGET_IMAGE]
                [--verbose] [--refl-coef REFL_COEF] [--fallback-point-detector] [--disable-faceid]
