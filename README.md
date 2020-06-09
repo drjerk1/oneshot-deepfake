@@ -1,5 +1,7 @@
 # oneshot-deepfake
 
+# That's is course work done by Denis Tsyupa, Vasiliy Kozlov, Vadim Chernishov at HSE University
+
 Swap faces in the video or images in realtime using only one photo of both people
 
 ## Download weights here and place them into weights directory, in the same directory where main.py is
