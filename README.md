@@ -34,6 +34,10 @@ optional arguments:
   
   ## python main.py --source-image images/swapme.jpg --target-image images/you.jpg --verbose
   
+  ## or
+  
+  ## python main.py --source-image images/swapme.jpg --verbose --disable-faceid
+  
   ## for video processing demo
   
   usage: main.py [-h] [--input-video INPUT_VIDEO] [--output-video OUTPUT_VIDEO] [--output-camera OUTPUT_CAMERA] [--camera-width CAMERA_WIDTH] [--camera-height CAMERA_HEIGHT] --source-image SOURCE_IMAGE [--target-image TARGET_IMAGE]
