@@ -68,3 +68,10 @@ optional arguments:
 ![demos/2.png](demos/2.png?raw=true "demos/2.png")
 ![demos/3.png](demos/3.png?raw=true "demos/3.png")
 ![demos/4.png](demos/4.png?raw=true "demos/4.png")
+
+## Sources
+https://github.com/TreB1eN/InsightFace_Pytorch - face comparison model
+
+https://github.com/1adrianb/face-alignment - facial landmarks model used to pseudolabel dataset
+
+https://github.com/webcamoid/akvcam - virtual camera integration
