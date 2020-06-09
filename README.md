@@ -1,4 +1,4 @@
-# oneshot-deepfake
+# Oneshot DeepFake
 
 # That's is course work done by Denis Tsyupa, Vasiliy Kozlov, Vadim Chernishov at HSE University
 
