@@ -10,7 +10,7 @@ https://www.kaggle.com/drjerk/one-shot-deepfake-weights
 
 ## https://www.kaggle.com/drjerk/swap-faces-usage-demo - simple usage demo
 
-## python process_image.py - for image swapping
+## python process_image.py - for image processing
 
 usage: process_image.py [-h] --input-image INPUT_IMAGE --output-image OUTPUT_IMAGE --source-image SOURCE_IMAGE [--refl-coef REFL_COEF] [--fallback-point-detector]
 
@@ -30,7 +30,7 @@ optional arguments:
                         
   --fallback-point-detector
   
-  ## python main.py - for video swapping support reading from webcam / video file and writing to webcam (using akvcam) / video file / showing in window
+  ## python main.py - for video processing, supports reading from webcam / video file and writing to webcam (using akvcam) / video file / showing in window
   
   ## demo example - python main.py --source-image images/1.jpg --target-image images/2.jpg --verbose
   
