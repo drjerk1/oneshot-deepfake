@@ -38,7 +38,7 @@ optional arguments:
   
   ## python main.py --source-image images/swapme.jpg --verbose --disable-faceid
   
-  ## for video processing demo
+  ## for video processing demo (Q button to quit)
   
   usage: main.py [-h] [--input-video INPUT_VIDEO] [--output-video OUTPUT_VIDEO] [--output-camera OUTPUT_CAMERA] [--camera-width CAMERA_WIDTH] [--camera-height CAMERA_HEIGHT] --source-image SOURCE_IMAGE [--target-image TARGET_IMAGE]
                [--verbose] [--refl-coef REFL_COEF] [--fallback-point-detector] [--disable-faceid]
