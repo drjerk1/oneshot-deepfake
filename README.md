@@ -40,7 +40,9 @@ optional arguments:
 One shot face swapper
 
 optional arguments:
+
   -h, --help            show this help message and exit
+  
   --input-video INPUT_VIDEO
   
   --output-video OUTPUT_VIDEO
