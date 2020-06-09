@@ -81,3 +81,5 @@ https://github.com/1adrianb/face-alignment - facial landmarks model used to pseu
 https://github.com/webcamoid/akvcam - virtual camera integration
 
 https://www.kaggle.com/yukia18/sub-rals-biggan-with-auxiliary-classifier - good biggan implementation
+
+https://github.com/Vasiliikoz/CourseProject - keypoints detector
