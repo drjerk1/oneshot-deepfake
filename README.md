@@ -2,6 +2,8 @@
 
 # That's is course work done by Denis Tsyupa, Vasiliy Kozlov, Vadim Chernishov at HSE University
 
+# It needs CUDA Compatible GPU with at least 4GB of RAM to work
+
 Swap faces in the video or images in realtime using only one photo of both people
 
 ## Download weights from here and place them into weights directory
