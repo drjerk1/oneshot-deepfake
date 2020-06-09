@@ -82,4 +82,4 @@ https://github.com/webcamoid/akvcam - virtual camera integration
 
 https://www.kaggle.com/yukia18/sub-rals-biggan-with-auxiliary-classifier - good biggan implementation
 
-https://github.com/Vasiliikoz/CourseProject - facial landmarks model
+https://github.com/Vasiliikoz/CourseProject - fast facial landmarks model
